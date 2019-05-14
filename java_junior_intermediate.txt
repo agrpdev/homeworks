@@ -48,14 +48,15 @@ Don't hesitate to use coding tutorials and Stack Overflow!
 Acceptance criteria:
 
 MUST your application must produce runnable spring boot war conforming assignment - if you are unsure how to produce runnable spring boot war application, just follow tutorials
-MUST use GIT to push your source code into public git provider (github, gitlab, anything) or your private but give access
+MUST fork this repo and deliver your homework as pull request
 MUST use maven/gradle or any other build system
 MUST conform to Google Java style guide - https://google.github.io/styleguide/javaguide.html - if you are unsure, use auto-formatting options
 PLUS focus on code readability
 PLUS use JDK 11 HTTP client 
 PLUS retrieve JSON data asynchronously
-PLUS use RxJava (for example to asynchronously retrieve data)
+PLUS use RxJava (for example to asynchronou data retrieval)
 PLUS allow CORS for everyone
 PLUS implement spring security layer with basic auth
 PLUS provide REST endpoint to retrieve historic data by their runId (cache in memory)
-PLUS cache historic run data in embedded database
+PLUS cache historic run data in embedded database on disk
+
