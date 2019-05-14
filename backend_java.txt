@@ -49,7 +49,9 @@ Write "BACONATOR" - a Java 12 Spring Boot application conforming the following s
         }
     
     
-Don't hesitate to use coding tutorials and Stack Overflow!
+Don't hesitate to use coding tutorials and Stack Overflow!  
+Your evaluation will be based on this task, therefore it is mandatory that you work on this alone and on your own. 
+Estimated time to complete this task is 60-120 minutes for all levels. If it takes you significantly more time, please do not hesitate to tell us.  
 
 Acceptance criteria:
 
