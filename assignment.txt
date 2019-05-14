@@ -1,6 +1,7 @@
-Junior JAVA developer assesment test
+JAVA developer assesment test
 ------------------------------------
 Write "BACONATOR" - a Java 12 Spring Boot application conforming the following specification:
+
     - providing REST interface (use JAX-RS style) with the "bacon" endpoint "/give-me-bacon/{howmuch}"
     - upon accessing this endpoint, following happens:
         - as many times as specified in {howmuch} path parameter of the "bacon" endpoint your app
@@ -11,6 +12,7 @@ Write "BACONATOR" - a Java 12 Spring Boot application conforming the following s
         - "data" field inside "items" field in output is actual data retrieved from external service
         - output contains start and end timestamps for both full request and for each item as well
         - example of pretty-printed application/json return data:
+        
         {
          "runId" : "abcdef",
          "start": 1234646,
@@ -24,9 +26,12 @@ Write "BACONATOR" - a Java 12 Spring Boot application conforming the following s
             }
           ]
         }
+        
+        
     - example - app is running on localhost, port 8080
     - in the browser I type the following: "http://localhost:8080/give-me-bacon/5"
     - I receive following response:
+    
         {
          "runId" : "axgdas",
          "items" [
@@ -42,21 +47,39 @@ Write "BACONATOR" - a Java 12 Spring Boot application conforming the following s
              ...
           ]
         }
-        
+    
+    
 Don't hesitate to use coding tutorials and Stack Overflow!
 
 Acceptance criteria:
 
-MUST your application must produce runnable spring boot war conforming assignment - if you are unsure how to produce runnable spring boot war application, just follow tutorials
-MUST fork this repo and deliver your homework as pull request
-MUST use maven/gradle or any other build system
-MUST conform to Google Java style guide - https://google.github.io/styleguide/javaguide.html - if you are unsure, use auto-formatting options
-PLUS focus on code readability
-PLUS use JDK 11 HTTP client 
-PLUS retrieve JSON data asynchronously
-PLUS use RxJava (for example to asynchronou data retrieval)
-PLUS allow CORS for everyone
-PLUS implement spring security layer with basic auth
-PLUS provide REST endpoint to retrieve historic data by their runId (cache in memory)
-PLUS cache historic run data in embedded database on disk
+Junior must pass following:
+---------------------------
+- your application must produce runnable spring boot war conforming assignment - if you are unsure how to produce runnable spring boot war application, just follow tutorials
+- fork this repo and deliver your homework as pull request
+- use maven/gradle or any other build system
+- conform to Google Java style guide - https://google.github.io/styleguide/javaguide.html - if you are unsure, use auto-formatting options
 
+Intermediate dev must pass everything above plus following:
+-------------------------------------
+- use JDK 11 HTTP client 
+- use RxJava for parallel bacon JSON retrieval from external service
+- add statistics endpoint which provides information about 
+   - word count (histogram)
+   - number of requests per IP address
+
+Senior dev must pass everything above plus following:
+-------------------------------------
+- implement "bacon pool", also known as "source of bacon" or "bacon cache"
+- choose time period of your liking (e.g. 5 seconds) and fetch single piece of bacon (i.e. single call to baconipsum) on regular basis, then:
+- store these pieces in queue in the application (disk persistancy is a bonus)
+- when user requests bacon from the endpoint either supply him with bacon (destroying stored bacon in process) or block until some bacon is available
+- extend statistics endpoint by average bacon waiting time per request
+- make sure you synchronize well - bacon is precious resource and single piece of bacon can be returned in single response only
+   
+
+Some bonus points:
+------------------
+- provide REST endpoint to retrieve historic data by their runId (cache in memory)
+- cache historic run data in embedded database on disk
+- store history some event queue (kafka, rabbit)
