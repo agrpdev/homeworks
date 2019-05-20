@@ -86,3 +86,10 @@ Some bonus points:
 - provide REST endpoint to retrieve historic data by their runId (cache in memory)
 - cache historic run data in embedded database on disk
 - store history in some event queue (kafka, rabbit) so application behavior can be replayed and analyzed
+
+Ending notes:
+-------------
+Overall quality of your code, usage of design patterns, best practices and common sense will be evaluated. You are presenting yourself with this task - please provide production-grade code. 
+
+
+
