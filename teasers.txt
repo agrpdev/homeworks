@@ -1,0 +1,10 @@
+           1
+          / \
+         2   3 ----
+        /  / | \  /
+       4   9 7  5 
+
+1) There is a non-binary, tree with cycles written on the whiteboard. Each node has an integer value. 
+   - write BFS algorithm, each node is visited just once
+   - write DFS algorithm prioritizing child nodes by their value (lowest are visited first)   
+   
