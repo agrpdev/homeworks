@@ -8,3 +8,10 @@
    - write BFS algorithm, each node is visited just once
    - write DFS algorithm prioritizing child nodes by their value (lowest are visited first)   
    
+2) An array of ints [ 1, 5, -12, 5, 7, ...] is given
+   - write an algorithm to determine lowest and highest value
+   - write an algorithm to determine average   
+   - what is the time and space complexity of your alogirthms?
+   - bonus question: write an algorithm to determine median - what is time and space complexity ?
+  
+   
