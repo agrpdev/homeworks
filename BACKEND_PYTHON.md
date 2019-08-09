@@ -53,3 +53,11 @@ Zadání je záměrně neurčité a je na vás, jak si s ním poradíte.
   - skript s API
   - návod ke spuštění
 
+
+<details><summary><b>Teaser</b></summary>
+<p>
+
+lambda, list, tuples, open(), zip()
+
+</p>
+</details>
