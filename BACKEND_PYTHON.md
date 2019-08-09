@@ -56,10 +56,10 @@ Zadání je záměrně neurčité a je na vás, jak si s ním poradíte.
   - návod ke spuštění
 
 
-<details><summary><b>Teaser</b></summary>
+<details><summary><b>😎</b></summary>
 <p>
 
-lambda, list, tuples, open(), zip(), PEP
+Teaser: lambda, list, tuples, open(), zip(), PEP
 
 </p>
 </details>
