@@ -6,7 +6,7 @@ Chceme získat rozšiřitelný dataset textových dat (z novin/článků/knih/č
 
 ### Zadání
 
-1. Napište scraper pro stahování dat nejnovějších článků z online serverů. Můžete využít servery jako [idnes.cz](https://www.idnes.cz/), [novinky.cz](https://www.novinky.cz/), [sport.cz](https://www.sport.cz/), případně cokoliv jiného (vyberte si alespoň 1). Scraper bude vycházet ze stránky seznamu nejnovějších článků a postupně se "proklikávat" do detailu jednotlivých článků, případně seznamu komentářů. Skript bude mít alespoň 1 vstupní parametr na omezení stahování (např. cílový počet stažených článků, podle data apod.). Dále bude ošetřený na nejčastější runtime chyby (např. detail článku vrátí chybu 404, vypadne na chvíli spojení se serverem, nepodaří se navázání HTTPS spojení apod.)
+1. Napište scraper pro stahování dat nejnovějších článků z online serverů. Můžete využít servery jako [idnes.cz](https://www.idnes.cz/), [novinky.cz](https://www.novinky.cz/), [sport.cz](https://www.sport.cz/), případně cokoliv jiného (vyberte si alespoň 1). Scraper bude vycházet ze stránky seznamu nejnovějších článků a postupně se "proklikávat" do detailu jednotlivých článků, případně seznamu komentářů. Skript bude mít alespoň 1 vstupní parametr na omezení stahování (např. cílový počet stažených článků, omezení podle data apod.). Dále bude ošetřený na nejčastější runtime chyby (např. detail článku vrátí chybu 404, vypadne na chvíli spojení se serverem, nepodaří se navázání HTTPS spojení apod.)
 2. Ze stažených článků se pokuste vyextrahovat maximum dostupných relevantních informací (nadpis, datum zveřejnění, autor, vlastní text, komentáře, počet zhlédnutí, ...) a vytvořte z nich strukturovaný objekt, který uložíte do NoSQL databáze.
 3. Nad uloženými daty napište jednoduché API (např. flask), které dokáže vracet (vyberte si alespoň 2):
    - N nejnovějších článků
@@ -44,6 +44,8 @@ Zadání je záměrně neurčité a je na vás, jak si s ním poradíte.
   - Docker
   - Pytest
   - cokoliv :)
+- Level Python Guru
+  - Jupyter, Pandas
 
 ### Odevzdání
 
@@ -57,7 +59,7 @@ Zadání je záměrně neurčité a je na vás, jak si s ním poradíte.
 <details><summary><b>Teaser</b></summary>
 <p>
 
-lambda, list, tuples, open(), zip()
+lambda, list, tuples, open(), zip(), PEP
 
 </p>
 </details>
