@@ -6,4 +6,6 @@ Java backend developers:  https://github.com/atlasgroupcz/homeworks/blob/master/
 
 ReactJS Frontend devs:    https://github.com/atlasgroupcz/homeworks/blob/master/frontend_react.pdf
 
+[Python gurus](./BACKEND_PYTHON.md) 🤖
+
 Send your submissions to trehak1@gmail.com
