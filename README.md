@@ -8,4 +8,4 @@ ReactJS Frontend devs:    https://github.com/agrpdev/homeworks/blob/master/front
 
 [Python gurus](./BACKEND_PYTHON.md) 🤖
 
-Send your submissions to trehak1@gmail.com
+Send your submissions to trehak@atlasgroup.cz
