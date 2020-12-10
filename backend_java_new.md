@@ -14,9 +14,9 @@ Projekt odevzdejte jako gitové repository (např. na githubu).
 **Hodnocení:**
 
 Jsou hodnocena tato kritéria:
-čistota kódu
-výpočet nejpopulárnějších dokumentů
-efektivita dotazů
+- čistota kódu
+- výpočet nejpopulárnějších dokumentů
+- efektivita dotazů
 
 
 ### Level 2 (intermediate)
@@ -33,10 +33,10 @@ Projekt odevzdejte jako gitové repository (např. na githubu).
 **Hodnocení:**
 
 Jsou hodnocena tato kritéria:
-čistota kódu
-elegance výpočtu trending dokumentů
-efektivita dotazů
-efektivita zpětných pohledů v čase na trending dokumenty v jednotlivých týdnech
+- čistota kódu
+- elegance výpočtu trending dokumentů
+- efektivita dotazů
+- efektivita zpětných pohledů v čase na trending dokumenty v jednotlivých týdnech
 
 
 
@@ -57,10 +57,10 @@ Projekt odevzdejte jako gitové repository (např. na githubu).
 **Hodnocení:**
 
 Jsou hodnocena tato kritéria:
-čistota kódu
-elegance výpočtu trending dokumentů
-efektivita dotazů
-efektivita zpětných pohledů v čase na trending dokumenty v jednotlivých týdnech
+- čistota kódu
+- elegance výpočtu trending dokumentů
+- efektivita dotazů
+- efektivita zpětných pohledů v čase na trending dokumenty v jednotlivých týdnech
 
 
 
