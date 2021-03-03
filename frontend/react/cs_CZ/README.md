@@ -33,8 +33,8 @@ Vstupním parametrem je id složky, pokud je parametr prázdný, API vrátí prv
 výstupem je pak list položek, který patří pod tuto složku.
 
 **2. query** vrací data daného souboru, vstupním parametrem je id.
-Odevzdávat budete **GIT** repozitář se zdrojovými soubory aplikace.
 
+###Odevzdávat budete **GIT** repozitář se zdrojovými soubory aplikace.
 
 ## Bonus
 - zavření náhledu
