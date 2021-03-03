@@ -4,7 +4,7 @@ This is a homework assignment repository ;
 
 Java backend developers:  https://github.com/agrpdev/homeworks/blob/master/backend_java.txt  
 
-ReactJS Frontend devs:    https://github.com/agrpdev/homeworks/blob/master/frontend_react.pdf
+ReactJS Frontend devs:    https://github.com/agrpdev/homeworks/blob/master/frontend/react/
 
 [Python gurus](./BACKEND_PYTHON.md) 🤖
 
