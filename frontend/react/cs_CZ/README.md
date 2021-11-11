@@ -6,11 +6,8 @@
 - Apollo Client
 
 ## Doporučené technologie (nepovinné)
-- Create React App / Next.js, ....
 - GraphQL Code Generator
-- Router
-- UI Framework (jakákoli knihovna) nebo Styled Components
-    - React Atlantic (@atlasgroupcz)^
+- UI Framework (jakákoli knihovna) nebo Styled Components/CSS Modules
     - Material UI
     - React Bootstrap
     - Ant Design
