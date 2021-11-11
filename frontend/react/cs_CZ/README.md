@@ -2,6 +2,7 @@
 ## Požadované technologie (povinné)
 - Typescript
 - React
+- Next.js
 - Apollo Client
 
 ## Doporučené technologie (nepovinné)
